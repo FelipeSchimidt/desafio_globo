@@ -10,7 +10,7 @@ module.exports = {
     {
       tipo: "Noticias",
       titulo: "Portal G1",
-      imagem: "../src/assets/img /noticias.jpg",
+      imagem: "../src/assets/img/noticias.jpg",
     },
     {
       tipo: "Esportes",
@@ -30,12 +30,12 @@ module.exports = {
     {
       tipo: "Tecnologias",
       titulo: "G1 Tecnologia",
-      imagem: "../src/assets/img/tech.jpg",
+      imagem: "../src/assets/img/tech.svg",
     },
     {
       tipo: "Entretenimento",
       titulo: "GShow",
-      imagem: "../src/assets/img/Gshow.jpg",
+      imagem: "../src/assets/img/Gshow.svg",
     },
   ],
 };

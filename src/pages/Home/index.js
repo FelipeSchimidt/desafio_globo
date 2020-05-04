@@ -7,6 +7,13 @@ import content from "../../backend";
 export default function Home() {
   const [conteudos, setConteudos] = useState(content.conteudos);
 
+  const contents = conteudos.map((content) => (
+    <li>
+      <p>{content.titulo}</p>
+      <image src={content.imagem.toString()} />
+    </li>
+  ));
+
   return (
     <div className="">
       <form action="">
@@ -18,14 +25,7 @@ export default function Home() {
         </div>
       </form>
       <br />
-      <ul>
-        {conteudos.map((conteudo) => (
-          <li>
-            <p>{conteudo.titulo}</p>
-            <img src={conteudo.imagem} alt="" />
-          </li>
-        ))}
-      </ul>
+      <ul>{contents}</ul>
     </div>
   );
 }
