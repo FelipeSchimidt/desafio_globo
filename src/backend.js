@@ -6,36 +6,36 @@ module.exports = {
     { nome: "Bianca Sóta", email: "bianca@email.com" },
     { nome: "Elvio Rodrigues", email: "elvio@email.com" },
   ],
-  assuntos: [
+  conteudos: [
     {
       tipo: "Noticias",
       titulo: "Portal G1",
-      imagem: "../assets/img/noticias.jpg",
+      imagem: "../src/assets/img /noticias.jpg",
     },
     {
       tipo: "Esportes",
       titulo: "GloboEsportes.com",
-      imagem: "../assets/img/esportes.jpg",
+      imagem: "../src/assets/img/esportes.jpg",
     },
     {
       tipo: "Podcasts",
       titulo: "GShow Podcasts",
-      imagem: "../assets/img/podcast.jpg",
+      imagem: "../src/assets/img/podcast.jpg",
     },
     {
       tipo: "Videos",
       titulo: "Globo Play",
-      imagem: "../assets/img/globo play.jpg",
+      imagem: "../src/assets/img/globo play.jpg",
     },
     {
       tipo: "Tecnologias",
       titulo: "G1 Tecnologia",
-      imagem: "../assets/img/tech.jpg",
+      imagem: "../src/assets/img/tech.jpg",
     },
     {
       tipo: "Entretenimento",
       titulo: "GShow",
-      imagem: "../assets/img/Gshow.jpg",
+      imagem: "../src/assets/img/Gshow.jpg",
     },
   ],
 };

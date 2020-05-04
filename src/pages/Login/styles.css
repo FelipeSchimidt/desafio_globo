@@ -1,12 +1,11 @@
-#logon-container {
+.logon-container {
   position: absolute;
   width: 375px;
   height: 812px;
   left: 0px;
   top: 0px;
-
+  background-image: url("../../assets/img/fantastico-poster-web\ 1.jpg");
   background: #272727;
-  opacity: 0.5;
 }
 
 h3 {
