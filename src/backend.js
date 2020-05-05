@@ -20,22 +20,22 @@ module.exports = {
     {
       tipo: "Podcasts",
       titulo: "GShow Podcasts",
-      imagem: "../src/assets/img/podcast.jpg",
+      imagem: "/src/assets/img/podcast.jpg",
     },
     {
       tipo: "Videos",
       titulo: "Globo Play",
-      imagem: "../src/assets/img/globo play.jpg",
+      imagem: "/src/assets/img/globo_play.jpg",
     },
     {
       tipo: "Tecnologias",
       titulo: "G1 Tecnologia",
-      imagem: "../src/assets/img/tech.svg",
+      imagem: "/src/assets/img/tech.svg",
     },
     {
       tipo: "Entretenimento",
       titulo: "GShow",
-      imagem: "../src/assets/img/Gshow.svg",
+      imagem: "/src/assets/img/Gshow.svg",
     },
   ],
 };

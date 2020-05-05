@@ -4,15 +4,15 @@ import {} from "react-icons/fi";
 
 import content from "../../backend";
 
-export default function Home() {
-  const [conteudos, setConteudos] = useState(content.conteudos);
+import noticia from "../../assets/img/noticias.jpg";
+import esporte from "../../assets/img/esportes.jpg";
+import podcast from "../../assets/img/podcast.jpg";
+import globoPlay from "../../assets/img/globo play.jpg";
+import tecnologia from "../../assets/img/tech.jpg";
+import entretenimento from "../../assets/img/Gshow.jpg";
 
-  const contents = conteudos.map((content) => (
-    <li>
-      <p>{content.titulo}</p>
-      <image src={content.imagem.toString()} />
-    </li>
-  ));
+export default function Home(props) {
+  const [conteudos, setConteudos] = useState(content.conteudos);
 
   return (
     <div className="">
@@ -25,7 +25,16 @@ export default function Home() {
         </div>
       </form>
       <br />
-      <ul>{contents}</ul>
+      <ul>
+        <li>
+          <img src={noticia} alt="" />
+          <img src={podcast} alt="" />
+          <img src={globoPlay} alt="" />
+          <img src={entretenimento} alt="" />
+          <img src={tecnologia} alt="" />
+          <img src={esporte} alt="" />
+        </li>
+      </ul>
     </div>
   );
 }

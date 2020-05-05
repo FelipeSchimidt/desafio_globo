@@ -1,6 +1,14 @@
-ul {
+#contents {
+  width: 375px;
+  height: 812px;
+  background: #ffffff;
+}
+
+#contents ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 24px;
   list-style: none;
+}
+#contents ul li {
 }
